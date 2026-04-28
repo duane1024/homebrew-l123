@@ -6,6 +6,11 @@ class L123 < Formula
   license "MIT"
   head "https://github.com/duane1024/l123.git", branch: "master"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   depends_on "rust" => :build
 
   def install
