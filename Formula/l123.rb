@@ -15,9 +15,11 @@ class L123 < Formula
 
   def install
     system "cargo", "install", *std_cargo_args(path: "crates/l123")
+    man1.install "crates/l123/man/l123.1"
   end
 
   test do
     assert_match "l123 #{version}", shell_output("#{bin}/l123 --version")
+    assert_predicate man1/"l123.1", :exist?
   end
 end
