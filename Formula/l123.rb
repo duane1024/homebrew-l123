@@ -1,8 +1,8 @@
 class L123 < Formula
   desc "Terminal clone of Lotus 1-2-3 Release 3.4a"
   homepage "https://github.com/duane1024/l123"
-  url "https://github.com/duane1024/l123/archive/refs/tags/v1.1.3.tar.gz"
-  sha256 "e66a7e20d74e550a15b4f9ff9667fafe0d1fba225f1a087ccee5c2ebb8491246"
+  url "https://github.com/duane1024/l123/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "ddd1032347a6df62d59efa4466b195db84227a5ac27041a729fb13882d1c1538"
   license "MIT"
   head "https://github.com/duane1024/l123.git", branch: "master"
 
